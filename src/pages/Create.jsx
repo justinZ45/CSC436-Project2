@@ -8,7 +8,7 @@ const Create = () => {
 	const [content, setContent] = useState('');
 
 	const createPost = async () => {
-		const url = 'http://localhost:3001/v1/api/posts'; //fecth from books api based on book id
+		const url = 'http://localhost:3001/v1/api/posts'; //fetch from posts api based on post id
 		setError(false);
 		try {
 			const body = { title, content };

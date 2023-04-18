@@ -15,7 +15,7 @@ const Blog = () => {
 	const [error, setError] = useState(false);
 
 	const getBlogData = async () => {
-		const url = `http://localhost:3001/v1/api/posts/${params.id}`; //fecth from books api based on book id
+		const url = `http://localhost:3001/v1/api/posts/${params.id}`; //fetch from posts api based on post id
 		setLoading(true);
 		setError(false);
 		try {

@@ -11,23 +11,25 @@
 		"coverage": "vitest run --coverage"
 	},
 	"dependencies": {
+		"@testing-library/jest-dom": "^5.16.5",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-loading-skeleton": "^3.2.1"
 	},
 	"devDependencies": {
+		"@testing-library/react": "^14.0.0",
 		"@types/react": "^18.0.28",
 		"@types/react-dom": "^18.0.11",
 		"@vitejs/plugin-react": "^3.1.0",
 		"autoprefixer": "^10.4.14",
 		"eslint": "^8.36.0",
 		"eslint-plugin-react": "^7.32.2",
+		"happy-dom": "^9.8.1",
 		"postcss": "^8.4.22",
-		"react-router-dom": "^6.10.0",
 		"prettier": "^2.8.7",
+		"react-router-dom": "^6.10.0",
 		"tailwindcss": "^3.3.1",
 		"vite": "^4.2.0",
-    "vitest": "^0.29.7"
-
+		"vitest": "^0.29.8"
 	}
 }
